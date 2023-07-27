@@ -19,10 +19,10 @@ int main()
 
     switch(choice)
     {
-        case 1: cout << "ADDITION OF TWO NUMBERS";
+        case 1: cout << "ADDITION OF TWO NUMBERS" << endl;
                 cout << "number1 + number2 = " << number1+number2 << endl;//printing addition of two numbers
                 break;
-        case 2: cout << "SUBTRACTION OF TWO NUMBERS";
+        case 2: cout << "SUBTRACTION OF TWO NUMBERS" << endl;
                 if(number1>number2)//to check which number is greater
                 {
                     cout << "number1 - number2 = " << number1-number2 << endl;//printing subtraction
@@ -32,10 +32,10 @@ int main()
                     cout << "number2 - number1 = " << number2-number1 << endl;//printing subtraction
                 }
                 break;
-        case 3: cout << "MULTIPLICATION OF TWO NUMBERS";
+        case 3: cout << "MULTIPLICATION OF TWO NUMBERS" << endl;
                 cout << "number1 * number2 = "<< number1*number2 << endl;
                 break;
-        case 4: cout << "DIVISION OF TWO NUMBERS";
+        case 4: cout << "DIVISION OF TWO NUMBERS" << endl;
                 if (number1>number2)
                 {
                     cout << "number1 / number2 = " << number1/number2 << endl;
