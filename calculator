@@ -1,10 +1,12 @@
 #include <iostream>
 using namespace std;
+
 int main()
 {
 
     double number1,number2;//declare the two variables
     std :: cout << "Enter the first number";
+
     cin >> number1;//take 1st number input
 
     cout << "Enter the second number";
@@ -12,6 +14,7 @@ int main()
 
     int choice;
     cout << "Enter your choice. Press 1- Addition 2- Subtraction 3- Multiplication 4- Division";
+
     cin >> choice;//input choice according to operation
 
     switch(choice)
